@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/logo-tribal-mnc.png" width="400"></p>
+<p align="center"><img src="./assets/img/logo-tribal-mnc.png" width="400"></p>
 
 ## web test
 
