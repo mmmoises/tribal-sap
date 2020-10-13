@@ -1,0 +1,113 @@
+.body{
+    background-color: white;   
+}
+
+.custom-nav{
+    background-color: transparent !important;
+}
+
+.full-screen{
+    position: relative;
+    height: 90vh;
+}
+
+.custom-container{
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+.img-bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+.searchBox {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 60px;
+    width: 900px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+
+}
+
+.btn-in{
+    float: right;
+    background-color: #2f3640;
+}
+
+
+
+.searchButton {
+    color : #2f3640;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 440px;
+    padding: 0 6px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+
+
+
+
+
+button.page-link {
+	display: inline-block;
+}
+button.page-link {
+    font-size: 20px;
+    color: #29b3ed;
+    font-weight: 500;
+}
+.offset{
+  width: 900px !important;
+  margin: 20px auto;  
+}
